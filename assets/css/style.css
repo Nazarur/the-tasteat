@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;700&display=swap');
+/* font-family: 'Cormorant Infant', serif; */
 
 
 * {
@@ -58,6 +59,7 @@ header {
     background-color: #292E36;
     font-size: 22px;
     color: #fff;
+    transition: 0.3s;
     border: #E1B168 solid 2px;
 }
 .reservation-container button:last-child {
@@ -68,10 +70,10 @@ header {
     color: #292E36;
     font-size: 22px;
     border: #292E36 solid 1px;
+    transition: 0.3s;
 }
 .reservation-container button:hover {
     transform: scale(1.05);
-    transition: 0.3s;
 }
 .header {
     display: flex;
@@ -88,9 +90,12 @@ header {
     width: 766px;
     justify-content: space-between;
 }
+.header nav a {
+    transition: 250ms;
+}
+
 .header nav a:hover {
     color: #E1B168;
-    transition: 300ms;
 }
 .header nav a:active {
     color: #E1B168;
@@ -147,6 +152,10 @@ header {
     background-color: #292E36;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 22px;
+    transition: 300ms;
+}
+.main-title button:hover {
+    transform: scale(1.08);
 }
 .main-photo {
     position: relative;
@@ -190,8 +199,96 @@ header {
     position: absolute;
     right: -30px;
     top: 0;    
-
 }
+
+
+.section2 {
+    height: 200px;
+    background-color: #FFF8F5;
+    display: flex;
+    align-items: center;
+}
+.info {
+    height: 83px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-sect {
+    width: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info-text {
+    transition: 700ms;
+    transform: scale(0);
+    margin-left: -220px;
+}
+.info-text p:first-child{
+    font-family: 'Cormorant Infant', serif;
+    font-size: 30px;
+    line-height: 39px;
+    margin-bottom: 5px;
+}
+.info-text p:last-child {
+    font-size: 20px;
+    line-height: 30px;
+    color: #555555;
+}
+.info-sect:hover .info-text {
+    transition: 700ms;
+    display: block;
+    transform: scale(1);
+    margin-left: 21px;
+}
+.info-img {
+    z-index: 2;
+    transition: 700ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 83px;
+    height: 83px;
+    border-radius: 100px;
+    background-color: #292E36;
+}
+.info-img img {
+    margin: auto;
+}
+.section3 {
+    background-color: #FFF8F5 ;
+    padding: 50px 0 70px 0;
+}
+.main-history h6 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    line-height: 56px;
+    font-family: "Cormorant Infant";
+}
+.main-history p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #555555;
+}
+
+.main-history img:first-child {
+    margin-right: 45px;
+}
+.history-container {
+    float: right;
+    width: 570px;
+}
+
+
+.plan {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+
+
 
 
 
