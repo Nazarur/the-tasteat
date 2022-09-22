@@ -35,12 +35,11 @@ hr {
 
 header {
     top: 0;
+    /* position: fixed; */
+    width: 100%;
     z-index: 50;
     position: sticky;
-    /* position: fixed; */
-    /* position: fixed; */
     background-color: #292E36;
-    /* height: 370px; */
 }
 .reservation-container {
     max-width: 1360px;
@@ -260,7 +259,7 @@ header {
     background-color: #FFF8F5 ;
     padding: 50px 0 70px 0;
 }
-.main-history h6 {
+h6 {
     margin-bottom: 15px;
     font-size: 40px;
     line-height: 56px;
@@ -288,6 +287,35 @@ header {
 }
 
 
+.section4 {
+    position: relative;
+    padding-top: 50px;
+    z-index: 3;
+}
+.special-dishes {
+    float: left;
+    width: 490px;
+    margin-right: 50px;
+}
+.special-dishes p:first-child {
+    width: 50px;
+    text-align: center;
+    height: 27px;
+    padding-top: 3px;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 22.5px;
+    border-top: #E1B168 solid 1px;
+    border-bottom: #E1B168 solid 1px;
+    margin-bottom: 12px;
+}
+.special-dishes p:nth-child(3) {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #555555;
+    margin-bottom: 45px;
+}
 
 
 
