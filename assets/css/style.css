@@ -293,6 +293,7 @@ h6 {
     z-index: 3;
 }
 .special-dishes {
+    height: 1776px;
     float: left;
     width: 490px;
     margin-right: 50px;
@@ -316,6 +317,109 @@ h6 {
     color: #555555;
     margin-bottom: 45px;
 }
+.special-dishes button {
+    width: 230px;
+    height: 73px;
+    color: #E1B168;
+    border: #E1B168 solid 2px;
+    background-color: transparent;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    transition: 300ms;
+    margin-top: 60px;
+}
+.special-dishes button:hover {
+    transform: scale(1.08);
+}
+.main-menu ul {
+    /* margin-top: 15px; */
+
+}
+.main-menu ul h5 {
+    margin-top: 15px;
+    font-size: 36px;
+    line-height: 50.4px;
+    letter-spacing: 0.2px;
+    font-family: "Cormorant Infant";
+    margin-bottom: 40px;
+}
+.main-menu ul li {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 818px;
+    
+}
+.main-menu ul li:last-child {
+    margin-bottom: 75px;
+}
+
+.main-menu ul .main-menu-info {
+    display: flex;
+}
+.main-menu ul .main-menu-info div:last-child {
+    margin-left: 20px;
+}
+.main-menu ul .main-menu-info div:last-child p:first-child, .main-menu-price p {
+    font-family: "Cormorant Infant";
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 0.2px;
+    margin-bottom: 2px;
+}
+.main-menu ul .main-menu-info div:last-child p:last-child {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #555555;
+}
+.main-menu-price {
+    font-family: "Cormorant Infant";
+    font-size: 30px;
+}
+
+
+
+.section5 {
+    /* margin: auto; */
+    /* width: 1440px; */
+    height: 906px;
+    background-color: #292E36;
+    color: #FFFFFF;
+    padding-top: 140px ;
+}
+.section-complaints p:first-child {
+    text-transform: uppercase;
+    border-top: solid #E1B168 1px;
+    border-bottom: solid #E1B168 1px;
+    height: 29px;
+    width: 141px;
+    padding: 4.5px;
+    font-size: 15px;
+    line-height: 22.5px;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+}
+
+.section-complaints p:nth-child(3) {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.peoples-complaints {
+    display: flex;
+    width: 1652px;
+    z-index: -30;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+
+}
+
+
+
 
 
 
