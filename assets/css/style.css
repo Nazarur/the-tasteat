@@ -382,14 +382,13 @@ h6 {
 
 
 .section5 {
-    /* margin: auto; */
-    /* width: 1440px; */
+    margin: auto;
     height: 906px;
     background-color: #292E36;
     color: #FFFFFF;
     padding-top: 140px ;
 }
-.section-complaints p:first-child {
+.section-complaints-title p:first-child {
     text-transform: uppercase;
     border-top: solid #E1B168 1px;
     border-bottom: solid #E1B168 1px;
@@ -402,7 +401,7 @@ h6 {
     margin-bottom: 12px;
 }
 
-.section-complaints p:nth-child(3) {
+.section-complaints-title p:nth-child(3) {
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.2px;
@@ -410,15 +409,70 @@ h6 {
     margin-bottom: 40px;
 }
 .peoples-complaints {
+
     display: flex;
     width: 1652px;
     z-index: -30;
     overflow-x: auto;
     flex-wrap: nowrap;
-
 }
 
 
+
+.respond-container {
+    width: 544px;
+    padding: 0 40px ;
+    background-color: #343942;
+}
+
+.respond-container-title {
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    border-bottom: solid 1px #797E89;
+    height: 144px;
+    width: 464px; 
+}
+.face {
+    border-radius: 100%;
+    margin-right: 30px;
+}
+.quotes{ 
+    position: absolute;
+    top: 0;
+    box-sizing:content-box ;
+    width: 30px;
+    height: 30px;
+    background-color: #E1B168;
+    border: #292E36 solid 2px;
+    border-radius: 100%;
+}
+.quotes img{
+    margin: 9px 9px;
+    width: 15px;
+    height: 12px;
+}
+
+.respond-container-title-name p:first-child {
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 0.2px;
+    font-family: "Cormorant Infant";
+}
+.respond-container-title-name p:last-child {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #E1B168;
+}
+.respond-text {
+    font-size: 24px;
+    line-height: 37.5px;
+    letter-spacing: 0.25px;
+    margin-top: 32px;
+    font-family: 'Cormorant Infant';
+}
 
 
 
