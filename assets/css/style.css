@@ -10,12 +10,23 @@
 }
 
 body {
+    scrollbar-color: #E1B168 transparent;
     background-color: #fff;
     color: #292E36;
     font-family: 'Josefin Sans', sans-serif;
     overflow-x: hidden;
     /* max-width: 1440px ; */
 }
+body::-webkit-scrollbar {
+    width: 12px;
+    background-color: #292E36;
+    opacity: 0;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #E1B168;
+    border-radius: 12px;
+}
+
 a {
     all: unset;
     text-decoration: none;
@@ -409,21 +420,42 @@ h6 {
     margin-bottom: 40px;
 }
 .peoples-complaints {
-
     display: flex;
-    width: 1652px;
-    z-index: -30;
     overflow-x: auto;
     flex-wrap: nowrap;
+    scrollbar-color: #000 ;
+    padding-bottom: 10px;
 }
+.peoples-complaints::-webkit-scrollbar {
+    background-color: transparent;
+    height: 10px;
+}
+.peoples-complaints::-webkit-scrollbar-thumb {
+    background-color: #E1B168;
+    border-radius: 10px;
+    height: 10px;
+    width: 50px;
+}
+
 
 
 
 .respond-container {
+    scrollbar-width: 5100px;
     width: 544px;
     padding: 0 40px ;
     background-color: #343942;
+    margin-left: 30px;
+    height: auto;
 }
+.respond-container:first-child {
+    margin-left: 0;
+}
+.respond-container::-webkit-scrollbar-thumb {
+    /* display: none; */
+    background-color: #000;
+}
+
 
 .respond-container-title {
     position: relative;
@@ -473,6 +505,117 @@ h6 {
     margin-top: 32px;
     font-family: 'Cormorant Infant';
 }
+.lamps-img {
+    width: 100%;
+}
+
+.section6 {
+    margin-top: 100px;
+}
+.our-dishes {
+    text-align: center;
+}
+.our-dishes p:first-child {
+    text-transform: uppercase;
+    border-top: solid #E1B168 1px;
+    border-bottom: solid #E1B168 1px;
+    height: 29px;
+    width: 78px;
+    margin: auto;
+    padding: 4.5px;
+    font-size: 15px;
+    line-height: 22.5px;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+}
+.our-dishes p:last-child {
+    font-family: "Josefin Sans";
+    color: #555555;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    margin-bottom: 40px;
+}
+.sales {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sale {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    width: 665px;
+    height: 409px;
+}
+.sales .sale:first-child {
+    background-image: url("/assets/img/pictures/backg-burger.jpg") ;
+}
+.sale-left {
+    width: 278px;
+}
+.sale-price {
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 43px;
+}
+.sale-price p:first-child {
+    padding-top: 17px;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 10.5px;
+    letter-spacing: 0.15px;
+}
+.sale-price p:last-child {
+    font-family: 'Cormorant Infant';
+    font-size: 60px;
+    line-height: 66px;
+    letter-spacing: 0.2px;
+    margin-top: -5px;
+}
+.sales .sale:first-child .sale-price {
+    width: 167px;
+    height: 104px;
+    background-image: url(/assets/img/pictures/backg-10.svg);
+}
+.sale-info p:first-child {
+    text-transform: uppercase;
+    width: 213px;
+    height: 25px;
+    padding: 2px;
+    font-size: 15px;
+    line-height: 22.5px;
+    letter-spacing: 4.5px;
+    border-top: #292E36 solid 1px;
+    border-bottom: #292E36 solid 1px;
+    margin-bottom: 8px;
+}
+.sale-info p:last-child {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #555555;
+}
+.sale img {
+    width: 307px;
+    height: 232px;
+}
+
+.sales .sale:last-child {
+    background-image: url(/assets/img/pictures/backg-pizza.jpg);
+}
+.sales .sale:last-child .sale-price {
+    width: 167px;
+    height: 104px;
+    background-image: url(/assets/img/pictures/backg-9.svg);
+    color: #fff;
+}
+
+
+
+
+
+
 
 
 
