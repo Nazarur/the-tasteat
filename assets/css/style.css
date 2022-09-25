@@ -549,7 +549,7 @@ h6 {
     height: 409px;
 }
 .sales .sale:first-child {
-    background-image: url("/assets/img/pictures/backg-burger.jpg") ;
+    background-image: url(/assets/img/pictures/backg-burger.jpg) ;
 }
 .sale-left {
     width: 278px;
@@ -607,7 +607,7 @@ h6 {
 .sales .sale:last-child .sale-price {
     width: 167px;
     height: 104px;
-    background-image: url(/assets/img/pictures/backg-9.svg);
+    background-image: url('/assets/img/pictures/backg-9.svg');
     color: #fff;
 }
 
@@ -773,6 +773,8 @@ h6 {
 }
 .blog-container {
     position: relative;
+    border: solid #c4c4c4 1px;
+    padding-bottom: 20px;
 }
 .button-view-more {
     width:  640px;
@@ -848,10 +850,56 @@ h6 {
     letter-spacing: .2px;
     color: #555555;
     margin-left: 46px;
+}
+footer {
+    margin: auto;
+    margin-top: 250px;
+    width: 1440px;
+    height: 977px;
+    background-image: url(/assets/img/pictures/footer-backg-img.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.footer {
+    position: relative;
+    width: 920px;
+    height: 697px;
+    z-index: 3;
+}
+.footer::after {
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(41, 46, 54, 95%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.footer-title {
+    margin-top: 140px;
+}
+.footer-title p:first-child {
+    margin: auto;
+    text-transform: uppercase;
+    width: min-content;
+    border-bottom: #E1B168 solid 1px;
+    border-top: #E1B168 solid 1px;
+    height: 29px;
+    padding-top: 4px;
+    font-size: 15px;
+    line-height: 22.5px;
+    letter-spacing: 3px;
+}
+.footer-title h6 {
+    text-align: center;
     margin-bottom: 38px;
 }
-
-
+.footer-reservation {
 
 
 
