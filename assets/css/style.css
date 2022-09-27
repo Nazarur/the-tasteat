@@ -687,14 +687,21 @@ h6 {
 
 
 .section8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #292E36;
     height: 515px;
     margin-top: 140px;
     margin-bottom: 140px;
+    padding: 0 40px 0 40px;
+    align-items: center;
+}
+.section8-services {
     display: flex;
     align-items: center;
     color: #fff;
-    padding: 0 40px 0 40px;
+
 }
 .about-our-offers {
     width: 448px;
@@ -854,13 +861,15 @@ h6 {
 footer {
     margin: auto;
     margin-top: 250px;
-    width: 1440px;
+    /* width: 1440px; */
     height: 977px;
     background-image: url(/assets/img/pictures/footer-backg-img.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .footer {
     position: relative;
@@ -882,6 +891,7 @@ footer {
 }
 .footer-title {
     margin-top: 140px;
+    margin-bottom: 20px ;
 }
 .footer-title p:first-child {
     margin: auto;
@@ -896,10 +906,75 @@ footer {
     letter-spacing: 3px;
 }
 .footer-title h6 {
+    margin-top: 12px;
     text-align: center;
     margin-bottom: 38px;
 }
 .footer-reservation {
+    width: 640px;
+    height: 268px;
+    margin: auto;
+}
+.footer-reservation-main form input {
+    all: unset;
+    width: 307px;
+    height: 70px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: .2px;
+    font-family: 'Josefin Sans' sans-serif;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: solid #858585 1px ;
+}
+.footer-reservation-main form input:last-child {
+    margin-right: 0px;
+}
+
+.footer-reservation-main form input::placeholder {
+    color: #fff;
+}
+.footer-reservation-plus form input {
+    all: unset;
+    width: 198px;
+    height: 70px;
+    margin-right: 17px;
+    margin-bottom: 30px;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Josefin Sans' sans-serif;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: .2px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: solid #858585 1px ;
+}
+.footer-reservation-plus form input:last-child {
+    margin-right: 0px;
+}
+
+.footer-reservation-plus form input::placeholder {
+    color: #fff;
+}
+.footer-reservation input[type="button"] {
+    display: block;
+    width: 242px;
+    height: 68px;
+    margin: auto;
+    color: #000;
+    font-family: "Josefin Sans";
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    background-color: #fff;
+    border: none;
+}
+
 
 
 
